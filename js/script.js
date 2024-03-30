@@ -108,6 +108,10 @@ $(document).ready(function () {
         loop: true,
         margin: 10,
         autoplay: true,
+        autoplayTimeout: 4000,
+        pagination : true,
+        paginationSpeed : 600,
+        autoplaySpeed:2000,
         responsiveClass: true,
         responsive: {
             0: {
@@ -121,7 +125,7 @@ $(document).ready(function () {
             1000: {
                 items: 3,
                 nav: true,
-                loop: false
+                loop: true
             }
         }
     });

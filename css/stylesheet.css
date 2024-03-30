@@ -224,7 +224,7 @@ button.owl-prev span {
     padding: 20px 20px;
     border-radius: 10px;
     height: 380px;
-    width: 75%;
+    width: 85%;
     transition: all 0.5s;
 }
 .owl-item {
@@ -638,12 +638,12 @@ box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25) inset;
 
   @keyframes loadcss {
     0% { width: 0; }
-    100% { width: 86%; }
+    100% { width: 90%; }
   }
 
   @keyframes loadjs {
     0% { width: 0; }
-    100% { width: 65%; }
+    100% { width: 50%; }
   }
 
   @keyframes loadbs {
@@ -653,12 +653,12 @@ box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25) inset;
 
   @keyframes loadreact {
     0% { width: 0; }
-    100% { width: 55%; }
+    100% { width: 40%; }
   }
 
   @keyframes loadgit {
     0% { width: 0; }
-    100% { width: 60%; }
+    100% { width: 30%; }
   }
 
 
@@ -784,6 +784,11 @@ box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25) inset;
 	opacity: 1;
 	-webkit-transform: translate(0px, 0px);
 	transform: translate(0px, 0px);
+}
+
+.exp-icn {
+    position: relative;
+    z-index: 1;
 }
 
 
