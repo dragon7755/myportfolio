@@ -141,7 +141,8 @@ nav.main-nav ul li a:hover {
   background-repeat: no-repeat;
   text-align: -webkit-center;
   background-size: contain;
-  width: 400px;
+  width: 350px;
+  margin-left: 40px;
 }
 .head-main-image img {
   position: relative;
@@ -247,6 +248,8 @@ a.DownloadCV-btn:hover {
 }
 .about-model-img img {
   width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 h1.sec-head {
@@ -873,13 +876,11 @@ footer#myFooter {
   .portfolio-info span {
     font-size: 0.75rem;
   }
-  .portfolio-wrap {
-    height: 130px;
-  }
   .head-main-image {
     width: 100%;
     background-size: cover;
     background-position: center;
+    margin: 0;
   }
   .head-main-image img {
     width: 100%;
