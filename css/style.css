@@ -814,6 +814,7 @@ footer#myFooter {
   transition: all 0.5s ease 0s;
   width: 100%;
   z-index: 9;
+  padding: 30px;
 }
 .portfolio-info::before {
   border-left: 2px solid #fff;

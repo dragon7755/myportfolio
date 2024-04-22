@@ -811,6 +811,7 @@ footer#myFooter {
 	transition: all 0.5s ease 0s;
 	width: 100%;
 	z-index: 9;
+	padding: 30px;
 	&::before {
 		border-left: 2px solid #fff;
 		border-right: 2px solid #fff;
